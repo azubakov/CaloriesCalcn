@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="azubakov.edu.caloriescalc"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="24" />
+
+    <!-- Required permission for App measurement to run. -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+ <!-- Optional permission for App measurement to run. -->
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+
+    <permission
+        android:name="azubakov.edu.caloriescalc.permission.C2D_MESSAGE"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="azubakov.edu.caloriescalc.permission.C2D_MESSAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="azubakov.edu.caloriescalc.activity.UserListsActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="azubakov.edu.caloriescalc.activity.LoginActivity" />
+        <activity
+            android:name="azubakov.edu.caloriescalc.activity.CalorieRecyclerActivity"
+            android:label="@string/title_activity_result_basic"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="azubakov.edu.caloriescalc.activity.ResultBasicActivity"
+            android:label="@string/title_activity_result_basic"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="azubakov.edu.caloriescalc.activity.CalorieNavDrawerActivity"
+            android:label="@string/title_activity_calorie_nav_drawer"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="azubakov.edu.caloriescalc.activity.CaloriesDetailsBasicActivity"
+            android:label="@string/title_activity_result_basic"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="azubakov.edu.caloriescalc.activity.InformBodyCaloriesActivity"
+            android:label="@string/title_activity_inform_body_calories"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="azubakov.edu.caloriescalc.activity.ResultInfoBodyActivity"
+            android:label="@string/title_activity_result_info_body"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="azubakov.edu.caloriescalc.activity.RecyclerInfoBodyActivity"
+            android:label="@string/title_activity_recycle_info_body"
+            android:theme="@style/AppTheme.NoActionBar" >
+
+            <!--
+                <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            -->
+
+        </activity>
+        <activity
+            android:name="azubakov.edu.caloriescalc.activity.InformBodyCaloriesSpinActivity"
+            android:label="@string/title_activity_inform_body_calories_spin"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="azubakov.edu.caloriescalc.activity.RecyclerMilkProductsActivity"
+            android:label="RecyclerMilkProductsActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+
+            <!--
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            -->
+        </activity>
+        <activity
+            android:name="azubakov.edu.caloriescalc.activity.RecyclerMeatProductsActivity"
+            android:label="@string/title_activity_recycler_meat_products"
+            android:theme="@style/AppTheme.NoActionBar" >
+
+            <!--
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            -->
+        </activity>
+        <activity
+            android:name="azubakov.edu.caloriescalc.activity.RecyclerFishProductsActivity"
+            android:label="@string/title_activity_recycler_fish_products"
+            android:theme="@style/AppTheme.NoActionBar" >
+
+            <!--
+                <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            -->
+
+        </activity>
+        <activity
+            android:name="azubakov.edu.caloriescalc.activity.DairynActivity"
+            android:label="@string/title_activity_dairyn"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="azubakov.edu.caloriescalc.activity.DairyActivity"
+            android:label="@string/title_activity_dairy"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="azubakov.edu.caloriescalc.activity.RecyclerResultsDairyActivity"
+            android:label="@string/title_activity_recycler_results_dairy"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="azubakov.edu.caloriescalc.activity.RecyclerBreadProductsActivity"
+            android:label="@string/title_activity_recycler_bread_products"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="azubakov.edu.caloriescalc.activity.RecyclerPopularProductsActivity"
+            android:label="@string/title_activity_recycler_popular_products"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="azubakov.edu.caloriescalc.activity.MealSummaryActivity"
+            android:label="@string/title_activity_meal_summary"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="azubakov.edu.caloriescalc.activity.MealSummaryRecyclerActivity"
+            android:label="@string/title_activity_meal_summary_recycler"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="azubakov.edu.caloriescalc.activity.NutritionixActivity"
+            android:label="@string/title_activity_nutritionix"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="azubakov.edu.caloriescalc.activity.SearchAutocompliteNutritionixActivity"
+            android:label="@string/title_activity_search_autocomplite_nutritionix"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="azubakov.edu.caloriescalc.activity.RecyclerActsActivity"
+            android:label="@string/title_activity_recycler_acts"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="azubakov.edu.caloriescalc.activity.MealProductsSpinActivity"
+            android:label="@string/title_activity_meal_products_spin"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="azubakov.edu.caloriescalc.activity.HelperActivity"
+            android:label="@string/title_activity_helper"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <receiver
+            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+            android:enabled="true" >
+            <intent-filter>
+                <action android:name="com.google.android.gms.measurement.UPLOAD" />
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name="com.google.android.gms.measurement.AppMeasurementService"
+            android:enabled="true"
+            android:exported="false" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <provider
+            android:name="com.google.firebase.provider.FirebaseInitProvider"
+            android:authorities="azubakov.edu.caloriescalc.firebaseinitprovider"
+            android:exported="false"
+            android:initOrder="100" />
+
+        <receiver
+            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+            android:exported="true"
+            android:permission="com.google.android.c2dm.permission.SEND" >
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+                <action android:name="com.google.android.c2dm.intent.REGISTRATION" />
+
+                <category android:name="azubakov.edu.caloriescalc" />
+            </intent-filter>
+        </receiver>
+        <!--
+ Internal (not exported) receiver used by the app to start its own exported services
+             without risk of being spoofed.
+        -->
+        <receiver
+            android:name="com.google.firebase.iid.FirebaseInstanceIdInternalReceiver"
+            android:exported="false" />
+        <!--
+ FirebaseInstanceIdService performs security checks at runtime,
+             no need for explicit permissions despite exported="true"
+        -->
+        <service
+            android:name="com.google.firebase.iid.FirebaseInstanceIdService"
+            android:exported="true" >
+            <intent-filter android:priority="-500" >
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+
+        <activity
+            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+    </application>
+
+</manifest>

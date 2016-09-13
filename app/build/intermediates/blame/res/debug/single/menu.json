@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "D:\\Users\\user1\\AndroidStudioProjects\\CaloriesCalcn\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_meal_summary.xml",
+        "source": "D:\\Users\\user1\\AndroidStudioProjects\\CaloriesCalcn\\app\\src\\main\\res\\menu\\menu_meal_summary.xml"
+    },
+    {
+        "merged": "D:\\Users\\user1\\AndroidStudioProjects\\CaloriesCalcn\\app\\build\\intermediates\\res\\merged\\debug\\menu\\activity_calorie_nav_drawer_drawer.xml",
+        "source": "D:\\Users\\user1\\AndroidStudioProjects\\CaloriesCalcn\\app\\src\\main\\res\\menu\\activity_calorie_nav_drawer_drawer.xml"
+    },
+    {
+        "merged": "D:\\Users\\user1\\AndroidStudioProjects\\CaloriesCalcn\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_main.xml",
+        "source": "D:\\Users\\user1\\AndroidStudioProjects\\CaloriesCalcn\\app\\src\\main\\res\\menu\\menu_main.xml"
+    },
+    {
+        "merged": "D:\\Users\\user1\\AndroidStudioProjects\\CaloriesCalcn\\app\\build\\intermediates\\res\\merged\\debug\\menu\\calorie_nav_drawer.xml",
+        "source": "D:\\Users\\user1\\AndroidStudioProjects\\CaloriesCalcn\\app\\src\\main\\res\\menu\\calorie_nav_drawer.xml"
+    },
+    {
+        "merged": "D:\\Users\\user1\\AndroidStudioProjects\\CaloriesCalcn\\app\\build\\intermediates\\res\\merged\\debug\\menu\\activity_right_calorie_nav_drawer_drawer.xml",
+        "source": "D:\\Users\\user1\\AndroidStudioProjects\\CaloriesCalcn\\app\\src\\main\\res\\menu\\activity_right_calorie_nav_drawer_drawer.xml"
+    }
+]

@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="D:\Users\user1\AndroidStudioProjects\CaloriesCalcn\app\build\intermediates\exploded-aar\com.google.firebase\firebase-database-connection\9.2.1\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="05d2e01f33fb2097b51fce3f938dc37a75fe2d6b">
+        <dex dex="D:\Users\user1\AndroidStudioProjects\CaloriesCalcn\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-database-connection-9.2.1_6710e90e6e6f8fc3e2693e8059d12b7e3b648168\classes.dex" />
+    </item>
+    <item
+        jar="D:\Users\user1\AndroidStudioProjects\CaloriesCalcn\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.1.1\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="c936c1bd42f0c018c18920c7bec619ef056b24f8">
+        <dex dex="D:\Users\user1\AndroidStudioProjects\CaloriesCalcn\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-24.1.1_781d6ccadbd27a28649bb09140863a660e4fff1b\classes.dex" />
+    </item>
+    <item
+        jar="D:\Users\user1\AndroidStudioProjects\CaloriesCalcn\app\build\intermediates\exploded-aar\com.android.support\design\24.1.1\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="e195bd694d5389acfba27ff4fdfa64c4c65b2c05">
+        <dex dex="D:\Users\user1\AndroidStudioProjects\CaloriesCalcn\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-24.1.1_efe1b3ce2ea324fbbdf8778175273f28bfced499\classes.dex" />
+    </item>
+    <item
+        jar="D:\Users\user1\AndroidStudioProjects\CaloriesCalcn\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tasks\9.2.1\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="819c2c3a4fb135e085445d11131d069cf9c32b2a">
+        <dex dex="D:\Users\user1\AndroidStudioProjects\CaloriesCalcn\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-tasks-9.2.1_461c29cbff5391954d295f0925e0bcb24d0c63fe\classes.dex" />
+    </item>
+    <item
+        jar="D:\Users\user1\AndroidStudioProjects\CaloriesCalcn\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="c15170b964ce7ec436c8a1cf528ef2947f824ca8">
+        <dex dex="D:\Users\user1\AndroidStudioProjects\CaloriesCalcn\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_d662ee9a12e5a3d9226cdb92d4b9c408b47679ae\classes.dex" />
+    </item>
+    <item
+        jar="D:\Users\user1\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\support-annotations\24.1.1\support-annotations-24.1.1.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="3af19f153122737b372622fa6c81dd11a1c6b999">
+        <dex dex="D:\Users\user1\AndroidStudioProjects\CaloriesCalcn\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-24.1.1_78d260d48a76e55c088423a65607ef071558aa56\classes.dex" />
+    </item>
+    <item
+        jar="D:\Users\user1\AndroidStudioProjects\CaloriesCalcn\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.1.1\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="f62e763609f65e47dc6c498760a4accf02776788">
+        <dex dex="D:\Users\user1\AndroidStudioProjects\CaloriesCalcn\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-24.1.1_abdf3c2049ea566af085925ef2778573449b9032\classes.dex" />
+    </item>
+    <item
+        jar="D:\Users\user1\AndroidStudioProjects\CaloriesCalcn\app\build\intermediates\exploded-aar\com.sa90.materialarcmenu\library\1.4.1\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="9e87328692c61c59a52ec7a1395b6f10f04708be">
+        <dex dex="D:\Users\user1\AndroidStudioProjects\CaloriesCalcn\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.sa90.materialarcmenu-library-1.4.1_3a7926a5034c0dbf32620cf20900dbf33f0352ce\classes.dex" />
+    </item>
+    <item
+        jar="D:\Users\user1\AndroidStudioProjects\CaloriesCalcn\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\24.0.0\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="8dd49930e4f9dde1a42d37e362b9fea8b1b69c0d">
+        <dex dex="D:\Users\user1\AndroidStudioProjects\CaloriesCalcn\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-cardview-v7-24.0.0_742363b5395c1d7ca25f62749c6fb364026d6de9\classes.dex" />
+    </item>
+    <item
+        jar="D:\Users\user1\AndroidStudioProjects\CaloriesCalcn\app\build\intermediates\exploded-aar\com.firebaseui\firebase-ui-database\0.4.3\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="734f779fc6347fe6932ae0ae510f958aadf55e45">
+        <dex dex="D:\Users\user1\AndroidStudioProjects\CaloriesCalcn\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.firebaseui-firebase-ui-database-0.4.3_a34aed1cf825e3bf01eab786de545c798e60f0cb\classes.dex" />
+    </item>
+    <item
+        jar="D:\Users\user1\AndroidStudioProjects\CaloriesCalcn\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.1.1\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="1256c10604bb098490eab070d76754ac5ceab35c">
+        <dex dex="D:\Users\user1\AndroidStudioProjects\CaloriesCalcn\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-24.1.1_c93c24ea305ffce29fd01220989353a010f15d37\classes.dex" />
+    </item>
+    <item
+        jar="D:\Users\user1\AndroidStudioProjects\CaloriesCalcn\app\build\intermediates\exploded-aar\com.google.firebase\firebase-database\9.2.1\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="f06a0705d7b8b9d18b00d056fe0e07bec75514e6">
+        <dex dex="D:\Users\user1\AndroidStudioProjects\CaloriesCalcn\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-database-9.2.1_92b31c09fb2dc24a685c9914539328900197b1f1\classes.dex" />
+    </item>
+    <item
+        jar="D:\Users\user1\AndroidStudioProjects\CaloriesCalcn\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.1.1\jars\libs\internal_impl-24.1.1.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="f78c2f395cb096f9dc1dc07e729922b8fcd3c4f5">
+        <dex dex="D:\Users\user1\AndroidStudioProjects\CaloriesCalcn\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.1.1_269a1b5d17f12ca5fda0e45497b6761700dd8b3f\classes.dex" />
+    </item>
+    <item
+        jar="D:\Users\user1\AndroidStudioProjects\CaloriesCalcn\app\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\9.2.1\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="d41b5d21cc9dd7d210f0ae82ac509ba7f091d611">
+        <dex dex="D:\Users\user1\AndroidStudioProjects\CaloriesCalcn\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-iid-9.2.1_d519ccf5c580105898d2385442e874b83e4e8899\classes.dex" />
+    </item>
+    <item
+        jar="D:\Users\user1\AndroidStudioProjects\CaloriesCalcn\app\build\intermediates\exploded-aar\com.google.firebase\firebase-auth\9.2.1\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="2506c5893e125e2f9cfc522378e893620c21b109">
+        <dex dex="D:\Users\user1\AndroidStudioProjects\CaloriesCalcn\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-auth-9.2.1_f45ca5820fcd2bbcaaa55b041a7b8470b8dd482d\classes.dex" />
+    </item>
+    <item
+        jar="D:\Users\user1\AndroidStudioProjects\CaloriesCalcn\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics-impl\9.2.1\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="5337354083e89ed67151859ab0b6b80935c60eaf">
+        <dex dex="D:\Users\user1\AndroidStudioProjects\CaloriesCalcn\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-analytics-impl-9.2.1_b451362128cc0acf9c3eb13460f7da2f098bc5db\classes.dex" />
+    </item>
+    <item
+        jar="D:\Users\user1\AndroidStudioProjects\CaloriesCalcn\app\build\intermediates\exploded-aar\com.google.firebase\firebase-auth-module\9.2.1\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="35a01d7cb4ff6b5976777bf5827fd8f206fb8757">
+        <dex dex="D:\Users\user1\AndroidStudioProjects\CaloriesCalcn\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-auth-module-9.2.1_302735694e60e2408392eb8973567ef42fa05a86\classes.dex" />
+    </item>
+    <item
+        jar="D:\Users\user1\AndroidStudioProjects\CaloriesCalcn\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="4e0448dece8e231c9aaa1cddfe95aaefd766b78e">
+        <dex dex="D:\Users\user1\AndroidStudioProjects\CaloriesCalcn\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_babd72f18e4963b14fa820af93f1992e58d42195\classes.dex" />
+    </item>
+    <item
+        jar="D:\Users\user1\AndroidStudioProjects\CaloriesCalcn\app\build\intermediates\exploded-aar\com.rengwuxian.materialedittext\library\2.1.4\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="288913b440a3c61c30aa171095453a605432277a">
+        <dex dex="D:\Users\user1\AndroidStudioProjects\CaloriesCalcn\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.rengwuxian.materialedittext-library-2.1.4_6054d0a22223f4bbf43784ee73d91597ba258e75\classes.dex" />
+    </item>
+    <item
+        jar="D:\Users\user1\AndroidStudioProjects\CaloriesCalcn\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\24.1.1\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="787871951412550519b0222aba3c9df4cea49875">
+        <dex dex="D:\Users\user1\AndroidStudioProjects\CaloriesCalcn\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-24.1.1_a7f88b2e1435f8a8a945588090253a61a9e4f492\classes.dex" />
+    </item>
+    <item
+        jar="D:\Users\user1\AndroidStudioProjects\CaloriesCalcn\app\build\intermediates\exploded-aar\com.github.florent37\materialtextfield\1.0.6\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="aad2db19c914afd9680673bb4f3c3c8ce764dc3f">
+        <dex dex="D:\Users\user1\AndroidStudioProjects\CaloriesCalcn\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.github.florent37-materialtextfield-1.0.6_926e30f9f917eedf7078b432da280c54f216e297\classes.dex" />
+    </item>
+    <item
+        jar="D:\Users\user1\AndroidStudioProjects\CaloriesCalcn\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.2.1\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="6b896c1067633db41e9c10a3a5d0919c5c4cfc8c">
+        <dex dex="D:\Users\user1\AndroidStudioProjects\CaloriesCalcn\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-basement-9.2.1_d81063d7bd2a52b61f339ce94c018552f1466890\classes.dex" />
+    </item>
+    <item
+        jar="D:\Users\user1\AndroidStudioProjects\CaloriesCalcn\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics\9.2.1\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="6a0f2d219f82db499ac03d5a985c4eb3e83fc422">
+        <dex dex="D:\Users\user1\AndroidStudioProjects\CaloriesCalcn\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-analytics-9.2.1_ebf3badcf9b2a2c3f5eb5a34f35c7b305601264c\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\user1\.gradle\caches\modules-2\files-2.1\com.nineoldandroids\library\2.4.0\e9b63380f3a242dbdbf103a2355ad7e43bad17cb\library-2.4.0.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="D:\Users\user1\AndroidStudioProjects\CaloriesCalcn\app\build\intermediates\transforms\dex\debug\folders\1000\10\library-2.4.0_19ac2862dcc6216424935c563b32df40c60ecfd6\classes.dex" />
+    </item>
+    <item
+        jar="D:\Users\user1\AndroidStudioProjects\CaloriesCalcn\app\build\intermediates\exploded-aar\com.google.firebase\firebase-common\9.2.1\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="3627eacd7f7cafb5e8ae683992e7b2f9b7dcab1a">
+        <dex dex="D:\Users\user1\AndroidStudioProjects\CaloriesCalcn\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-common-9.2.1_51f222dd9019ac9c3bf3fb68a16a2b299fceefce\classes.dex" />
+    </item>
+    <item
+        jar="D:\Users\user1\AndroidStudioProjects\CaloriesCalcn\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\9.2.1\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="421b36cf4f0d3bbd75e8f28647fccf36674ef049">
+        <dex dex="D:\Users\user1\AndroidStudioProjects\CaloriesCalcn\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-base-9.2.1_121d6d25f4a38ccf9605c11f52a7fecd64404839\classes.dex" />
+    </item>
+    <item
+        jar="D:\Users\user1\AndroidStudioProjects\CaloriesCalcn\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.1.1\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="6d7d803871e3203465f71a163e7af104f807b446">
+        <dex dex="D:\Users\user1\AndroidStudioProjects\CaloriesCalcn\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-24.1.1_ca47a7ddaa02e2b9db61ad9a42d9620a5b676bc3\classes.dex" />
+    </item>
+    <item
+        jar="D:\Users\user1\AndroidStudioProjects\CaloriesCalcn\app\build\intermediates\exploded-aar\com.google.firebase\firebase-auth-common\9.2.1\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="ee409046028e5657a2a69edaa2eba00d6511a74c">
+        <dex dex="D:\Users\user1\AndroidStudioProjects\CaloriesCalcn\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-auth-common-9.2.1_a6c0cecd753f764652092403e0ef85b772d1c32d\classes.dex" />
+    </item>
+
+</items>

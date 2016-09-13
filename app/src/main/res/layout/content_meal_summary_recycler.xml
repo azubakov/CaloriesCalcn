@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="azubakov.edu.caloriescalc.activity.MealSummaryActivity"
+    tools:showIn="@layout/activity_meal_summary_recycler">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/layout"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvDate1"
+                android:text="The current day is: "
+                android:textSize="14sp"
+                android:fontFamily="casual"
+                android:textStyle="bold"
+                android:layout_alignParentTop="false"
+                android:layout_alignParentBottom="false"
+                android:paddingTop="30dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvRealDate1"
+                android:text="Real date"
+                android:textSize="14sp"
+                android:fontFamily="casual"
+                android:textStyle="bold"
+                android:layout_toRightOf="@+id/tvDate1"
+                android:layout_toEndOf="@+id/tvDate1"
+                android:paddingTop="30dp" />
+
+        </RelativeLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/breakfast"
+         />
+
+
+        <FrameLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/containerSummaryBreakfast"/>
+
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/breakfast1"
+            />
+
+
+        <FrameLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/containerSummaryDinner"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/breakfast2"
+            />
+
+        <FrameLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/containerSummaryLaunch"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/breakfast3"
+            />
+
+        <FrameLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/containerSummarySnacks"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/sport1"
+            />
+
+        <FrameLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/containerSummaryActivity"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvRecomendCal"
+                android:text="Recommended calories: "
+                android:textSize="16sp"
+                android:fontFamily="casual"
+                android:textStyle="bold"
+                android:layout_below="@+id/tvSumDayCal"
+                android:textColor="#f40808"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvSumRecomendCal"
+                android:text=""
+                android:textSize="16sp"
+                android:fontFamily="casual"
+                android:textStyle="bold"
+                android:layout_below="@+id/tvCalSumDayCal"
+                android:layout_toRightOf="@+id/tvRecomendCal"
+                android:textColor="#f40808"
+                />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvRecomendExtraCal"
+                android:text="Recommended  extra calories: "
+                android:textSize="16sp"
+                android:fontFamily="casual"
+                android:textStyle="bold"
+                android:layout_below="@+id/tvRecomendCal"
+                android:textColor="#f40808"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvSumRecomendExtraCal"
+                android:text=""
+                android:textSize="16sp"
+                android:fontFamily="casual"
+                android:textStyle="bold"
+                android:layout_below="@+id/tvRecomendCal"
+                android:layout_toRightOf="@+id/tvRecomendExtraCal"
+                android:textColor="#f40808"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvDate"
+                android:text="The current day is: "
+                android:textSize="14sp"
+                android:fontFamily="casual"
+                android:textStyle="bold"
+                android:layout_below="@+id/tvRecomendExtraCal"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvRealDate"
+                android:text="Real date"
+                android:textSize="14sp"
+                android:fontFamily="casual"
+                android:textStyle="bold"
+                android:layout_toRightOf="@+id/tvDate"
+                android:layout_below="@+id/tvSumRecomendExtraCal"
+                />
+
+
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+
+
+
+</android.support.v4.widget.NestedScrollView>

@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/recycler_breakfast"
+            android:icon="@drawable/ic_accessibility_24dp"
+            android:title="Breakfast" />
+
+        <item
+            android:id="@+id/recycler_lunch"
+            android:icon="@drawable/ic_accessibility_24dp"
+            android:title="Lunch" />
+
+        <item
+            android:id="@+id/recycler_dinner"
+            android:icon="@drawable/ic_accessibility_24dp"
+            android:title="Dinner" />
+
+        <item
+            android:id="@+id/recycler_snakes"
+            android:icon="@drawable/ic_accessibility_24dp"
+            android:title="Snakes" />
+
+        <item
+            android:id="@+id/recycler_acts"
+            android:icon="@drawable/ic_accessibility_24dp"
+            android:title="Phisical activity" />
+
+
+        <item
+            android:id="@+id/spin_products"
+            android:icon="@drawable/ic_accessibility_24dp"
+            android:title="Databases of products" />
+
+        <item
+            android:id="@+id/helper"
+            android:icon="@drawable/ic_accessibility_24dp"
+            android:title="Helper" />
+
+
+        <!--     <item
+                 android:id="@+id/milk_products"
+                 android:icon="@drawable/ic_accessibility_24dp"
+                 android:title="Milk products" />
+
+             <item
+                 android:id="@+id/fish_products"
+                 android:icon="@drawable/ic_accessibility_24dp"
+                 android:title="Fish products" />
+
+             <item
+                 android:id="@+id/meat_products"
+                 android:icon="@drawable/ic_accessibility_24dp"
+                 android:title="Meat products" />
+
+             <item
+                 android:id="@+id/bread_products"
+                 android:icon="@drawable/ic_accessibility_24dp"
+                 android:title="Bread products" />
+             <item
+                 android:id="@+id/popular_products"
+                 android:icon="@drawable/ic_accessibility_24dp"
+                 android:title="Popular products" />
+
+             <item
+                 android:id="@+id/acts_products"
+                 android:icon="@drawable/ic_accessibility_24dp"
+                 android:title="Phisical activity" />-->
+
+
+
+
+
+        <!--     <item
+            android:id="@+id/nav_parameters_body_edittext"
+            android:icon="@drawable/ic_accessibility_24dp"
+            android:title="Parameters of Body(edittext) " />
+
+        <item
+            android:id="@+id/nav_parameters_recycler_body"
+            android:icon="@drawable/ic_accessibility_24dp"
+            android:title="Recycler parameters of body " />
+
+        <item
+            android:id="@+id/meals_calories"
+            android:icon="@drawable/ic_accessibility_24dp"
+            android:title="Meals, grammes and callories" />
+
+        <item
+            android:id="@+id/sum_calories"
+            android:icon="@drawable/ic_accessibility_24dp"
+            android:title="Sum calories per day" />
+
+        <item
+            android:id="@+id/recycle_all"
+            android:icon="@drawable/ic_accessibility_24dp"
+            android:title="Recycler all per day" />
+
+
+        <item
+            android:id="@+id/diet_calendar"
+            android:icon="@drawable/ic_view_comfy_24dp"
+            android:title="Diet calendar per day mysqli" />
+
+
+        <item
+            android:id="@+id/searchingAutocomplit_json"
+            android:icon="@drawable/ic_view_comfy_24dp"
+            android:title="Searching Automplit JSON" />
+
+
+        <item
+           android:id="@+id/milk_products"
+           android:icon="@drawable/ic_accessibility_24dp"
+           android:title="Milk products" />
+
+       <item
+           android:id="@+id/fish_products"
+           android:icon="@drawable/ic_accessibility_24dp"
+           android:title="Fish products" />
+
+       <item
+           android:id="@+id/meat_products"
+           android:icon="@drawable/ic_accessibility_24dp"
+           android:title="Meat products" />
+
+       <item
+           android:id="@+id/bread_products"
+           android:icon="@drawable/ic_accessibility_24dp"
+           android:title="Bread products" />
+       <item
+           android:id="@+id/popular_products"
+           android:icon="@drawable/ic_accessibility_24dp"
+           android:title="Popular products" />
+
+        <item
+            android:id="@+id/acts_products"
+            android:icon="@drawable/ic_accessibility_24dp"
+            android:title="Phisical activity" />-->
+        <!--      <item
+               android:id="@+id/searching_json"
+               android:icon="@drawable/ic_view_comfy_24dp"
+               android:title="Searching JSON" />-->
+
+
+
+        <!--     <item
+            android:id="@+id/nutritionix_json"
+            android:icon="@drawable/ic_view_comfy_24dp"
+            android:title="Nutritionix JSON" />-->
+
+        <!--       <item
+            android:id="@+id/milk_products"
+            android:icon="@drawable/ic_accessibility_24dp"
+            android:title="Milk products" />
+
+        <item
+            android:id="@+id/fish_products"
+            android:icon="@drawable/ic_accessibility_24dp"
+            android:title="Fish products" />
+
+        <item
+            android:id="@+id/meat_products"
+            android:icon="@drawable/ic_accessibility_24dp"
+            android:title="Meat products" />
+
+        <item
+            android:id="@+id/bread_products"
+            android:icon="@drawable/ic_accessibility_24dp"
+            android:title="Bread products" />
+        <item
+            android:id="@+id/popular_products"
+            android:icon="@drawable/ic_accessibility_24dp"
+            android:title="Popular products" />-->
+
+        <!--     <item
+                 android:id="@+id/static_input_form"
+                 android:icon="@drawable/ic_accessibility_24dp"
+                 android:title="Static input form" />-->
+
+
+        <!--     <item
+                    android:id="@+id/recycle_breakfast"
+                    android:icon="@drawable/ic_accessibility_24dp"
+                    android:title="Recycler breakfast per day" />
+
+                <item
+                    android:id="@+id/recycle_lunch"
+                    android:icon="@drawable/ic_accessibility_24dp"
+                    android:title="Recycler lunch per day" />
+
+                <item
+                    android:id="@+id/recycle_dinner"
+                    android:icon="@drawable/ic_accessibility_24dp"
+                    android:title="Recycler dinner per day" />
+
+                <item
+                    android:id="@+id/recycle_snakes"
+                    android:icon="@drawable/ic_accessibility_24dp"
+                    android:title="Recycler snakes per day" />
+
+                <item
+                    android:id="@+id/recycle_acts"
+                    android:icon="@drawable/ic_accessibility_24dp"
+                    android:title="Recycler acts per day" />-->
+
+
+
+
+
+
+
+        <!--   <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/ic_restaurant_menu_black_24dp"
+            android:title="Food Diary" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_directions_walk_24dp"
+            android:title="Execise Diary" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_view_comfy_24dp"
+            android:title="Diet calendar" />
+        <item
+            android:id="@+id/nav_parameters_body"
+            android:icon="@drawable/ic_accessibility_24dp"
+            android:title="Parameters of Body" />
+
+        <item
+            android:id="@+id/nav_milk"
+            android:icon="@drawable/ic_accessibility_24dp"
+            android:title="Milk" />
+
+        <item
+            android:id="@+id/nav_meat"
+            android:icon="@drawable/ic_accessibility_24dp"
+            android:title="Meat" />
+
+        <item
+            android:id="@+id/nav_fish"
+            android:icon="@drawable/ic_accessibility_24dp"
+            android:title="Fish" />
+
+        <item
+            android:id="@+id/nav_Recyclermeals"
+            android:icon="@drawable/ic_accessibility_24dp"
+            android:title="RecyclerMeals" />
+
+        <item
+            android:id="@+id/nav_RecyclerDairySum"
+            android:icon="@drawable/ic_accessibility_24dp"
+            android:title="RecyclerDairySum" />-->
+
+    </group>
+
+  <!--  <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send" />
+        </menu>
+    </item>-->
+
+</menu>

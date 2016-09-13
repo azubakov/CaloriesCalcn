@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="azubakov.edu.caloriescalc.activity.MealProductsSpinActivity"
+    tools:showIn="@layout/activity_meal_products_spin">
+
+
+    <ImageView
+        android:layout_width="400dp"
+        android:layout_height="100dp"
+        android:id="@+id/ivBody"
+        android:src="@drawable/salad1"
+        android:scaleType="centerCrop"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Product: "
+        android:id="@+id/tvProductName"
+        android:fontFamily="casual"
+        android:textSize="@dimen/textSize"
+        android:padding="5dp"
+        android:layout_below="@+id/ivBody"
+        />
+
+
+    <Spinner
+        android:id="@+id/spProductName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:spinnerMode="dropdown"
+        android:layout_below="@+id/ivBody"
+        android:layout_toRightOf="@+id/tvProductName"
+        android:layout_toEndOf="@+id/tvProductName"
+         />
+
+  <!--  <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnProductName"
+        android:onClick="gotoProductName"
+        android:layout_below="@+id/spProductName"
+        android:layout_alignRight="@+id/ivBody"
+        android:layout_alignEnd="@+id/ivBody"
+        android:text="Choose Product"
+        />-->
+
+</RelativeLayout>

@@ -1,0 +1,1832 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView
+    android:id="@+id/nstScrView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:paddingBottom="16dp"
+    android:paddingLeft="64dp"
+    android:paddingRight="64dp"
+    android:paddingTop="16dp"
+    android:padding="5dp"
+    tools:context=".activity.DairynActivity">
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/layout">
+
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvDate1"
+            android:text="The current day is: "
+            android:textSize="14sp"
+            android:fontFamily="casual"
+            android:textStyle="bold"
+            android:layout_alignParentTop="false"
+            android:layout_alignParentBottom="false"
+            android:paddingTop="30dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvRealDate1"
+            android:text="Real date"
+            android:textSize="14sp"
+            android:fontFamily="casual"
+            android:textStyle="bold"
+            android:layout_toRightOf="@+id/tvDate1"
+            android:layout_toEndOf="@+id/tvDate"
+            android:paddingTop="30dp" />
+
+
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/Breakfast"
+            android:layout_width="match_parent"
+            android:layout_height="370dp"
+            android:layout_marginTop="50dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="10dp"
+                android:id="@+id/layout1"
+                >
+            <!--    <Button
+                    android:layout_width="45dp"
+                    android:layout_height="370dp"
+                    android:text="+"
+                    android:id="@+id/btnChangeBreakfast"
+                    />-->
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tvBreakfast"
+                    android:text="Breakfast  "
+                    android:textSize="14sp"
+                    android:fontFamily="casual"
+                    android:textStyle="bold"
+
+                    />
+
+                android:layout_toRightOf="@+id/btnChangeBreakfast"
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tvGotBreakfast"
+                    android:text="Getting Cal.: "
+                    android:textSize="14sp"
+                    android:fontFamily="casual"
+                    android:textStyle="bold"
+                    android:layout_toRightOf="@+id/tvBreakfast" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tvSumCalBreakfast"
+                    android:text="Sum Cal:"
+                    android:textSize="14sp"
+                    android:fontFamily="casual"
+                    android:textStyle="bold"
+                    android:layout_toRightOf="@+id/tvGotBreakfast" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tvNameProductBreakfast"
+                    android:text="Name Product:  "
+                    android:textSize="14sp"
+                    android:fontFamily="casual"
+                    android:textStyle="bold"
+                    android:layout_below="@+id/tvBreakfast" />
+                android:layout_toRightOf="@+id/btnChangeBreakfast"
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tvNameGrammBreakfast"
+                    android:text="Gram:  "
+                    android:textSize="14sp"
+                    android:fontFamily="casual"
+                    android:textStyle="bold"
+                    android:layout_below="@+id/tvSumCalBreakfast"
+                    android:layout_toRightOf="@+id/tvNameProductBreakfast" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tvKkalBreakfast"
+                    android:text="KCal:"
+                    android:textSize="14sp"
+                    android:fontFamily="casual"
+                    android:textStyle="bold"
+                    android:layout_below="@+id/tvSumCalBreakfast"
+                    android:layout_toRightOf="@+id/tvNameGrammBreakfast" />
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:fontFamily="casual"
+                    android:textStyle="bold"
+                    android:hint="Name Product: "
+                    android:id="@+id/etNameProductBreakfast"
+                    android:layout_below="@+id/tvNameProductBreakfast"
+
+                    />
+                android:layout_toRightOf="@+id/btnChangeBreakfast"
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:id="@+id/etGrammBreakfast"
+                    android:fontFamily="casual"
+                    android:textStyle="bold"
+                    android:hint="Gram: "
+                    android:layout_toRightOf="@+id/etNameProductBreakfast"
+                    android:layout_below="@+id/tvNameGrammBreakfast"
+                    android:inputType="numberDecimal"
+                    />
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:id="@+id/etKcalBreakfast"
+                    android:fontFamily="casual"
+                    android:textStyle="bold"
+                    android:hint="Kcal: "
+                    android:layout_toRightOf="@+id/etGrammBreakfast"
+                    android:layout_below="@+id/tvNameGrammBreakfast"
+                    android:inputType="numberDecimal"
+                    />
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:fontFamily="casual"
+                    android:textStyle="bold"
+                    android:hint="Name Product: "
+                    android:id="@+id/etNameProductBreakfast2"
+                    android:layout_below="@+id/etNameProductBreakfast"
+                    />
+                android:layout_toRightOf="@+id/btnChangeBreakfast"
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:id="@+id/etGrammBreakfast2"
+                    android:fontFamily="casual"
+                    android:textStyle="bold"
+                    android:hint="Gram: "
+                    android:layout_toRightOf="@+id/etNameProductBreakfast2"
+                    android:layout_below="@+id/etKcalBreakfast"
+                    android:inputType="numberDecimal"
+                    />
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:id="@+id/etKcalBreakfast2"
+                    android:fontFamily="casual"
+                    android:textStyle="bold"
+                    android:hint="Kcal: "
+                    android:layout_toRightOf="@+id/etGrammBreakfast2"
+                    android:layout_below="@+id/etKcalBreakfast"
+                    android:inputType="numberDecimal"
+                    />
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:fontFamily="casual"
+                    android:textStyle="bold"
+                    android:hint="Name Product: "
+                    android:id="@+id/etNameProductBreakfast3"
+                    android:layout_below="@+id/etNameProductBreakfast2"
+                    />
+
+                android:layout_toRightOf="@+id/btnChangeBreakfast"
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:id="@+id/etGrammBreakfast3"
+                    android:fontFamily="casual"
+                    android:textStyle="bold"
+                    android:hint="Gram: "
+                    android:layout_toRightOf="@+id/etNameProductBreakfast3"
+                    android:layout_below="@+id/etKcalBreakfast2"
+                    android:inputType="numberDecimal"
+                    />
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:id="@+id/etKcalBreakfast3"
+                    android:fontFamily="casual"
+                    android:textStyle="bold"
+                    android:hint="Kcal: "
+                    android:layout_toRightOf="@+id/etGrammBreakfast2"
+                    android:layout_below="@+id/etKcalBreakfast2"
+                    android:inputType="numberDecimal"
+                    />
+
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:fontFamily="casual"
+                    android:textStyle="bold"
+                    android:hint="Name Product: "
+                    android:id="@+id/etNameProductBreakfast4"
+                    android:layout_below="@+id/etNameProductBreakfast3"
+
+                    />
+                android:layout_toRightOf="@+id/btnChangeBreakfast"
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:id="@+id/etGrammBreakfast4"
+                    android:fontFamily="casual"
+                    android:textStyle="bold"
+                    android:hint="Gram: "
+                    android:layout_toRightOf="@+id/etNameProductBreakfast4"
+                    android:layout_below="@+id/etKcalBreakfast3"
+                    android:inputType="numberDecimal"
+                    />
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:id="@+id/etKcalBreakfast4"
+                    android:fontFamily="casual"
+                    android:textStyle="bold"
+                    android:hint="Kcal: "
+                    android:layout_toRightOf="@+id/etGrammBreakfast4"
+                    android:layout_below="@+id/etKcalBreakfast3"
+                    android:inputType="numberDecimal"
+                    />
+
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:fontFamily="casual"
+                    android:textStyle="bold"
+                    android:hint="Name Product: "
+                    android:id="@+id/etNameProductBreakfast5"
+                    android:layout_below="@+id/etNameProductBreakfast4"
+
+                    />
+                android:layout_toRightOf="@+id/btnChangeBreakfast"
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:id="@+id/etGrammBreakfast5"
+                    android:fontFamily="casual"
+                    android:textStyle="bold"
+                    android:hint="Gram: "
+                    android:layout_toRightOf="@+id/etNameProductBreakfast5"
+                    android:layout_below="@+id/etKcalBreakfast4"
+                    android:inputType="numberDecimal"
+                    />
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:id="@+id/etKcalBreakfast5"
+                    android:fontFamily="casual"
+                    android:textStyle="bold"
+                    android:hint="Kcal: "
+                    android:layout_toRightOf="@+id/etGrammBreakfast5"
+                    android:layout_below="@+id/etKcalBreakfast4"
+                    android:inputType="numberDecimal"
+                    />
+
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:fontFamily="casual"
+                    android:textStyle="bold"
+                    android:hint="Name Product: "
+                    android:id="@+id/etNameProductBreakfast6"
+                    android:layout_below="@+id/etNameProductBreakfast5"
+
+                    />
+                android:layout_toRightOf="@+id/btnChangeBreakfast"
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:id="@+id/etGrammBreakfast6"
+                    android:fontFamily="casual"
+                    android:textStyle="bold"
+                    android:hint="Gram: "
+                    android:layout_toRightOf="@+id/etNameProductBreakfast6"
+                    android:layout_below="@+id/etKcalBreakfast5"
+                    android:inputType="numberDecimal"
+                    />
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:id="@+id/etKcalBreakfast6"
+                    android:fontFamily="casual"
+                    android:textStyle="bold"
+                    android:hint="Kcal: "
+                    android:layout_toRightOf="@+id/etGrammBreakfast6"
+                    android:layout_below="@+id/etKcalBreakfast5"
+                    android:inputType="numberDecimal"
+                    />
+
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:fontFamily="casual"
+                    android:textStyle="bold"
+                    android:hint="Name Product: "
+                    android:id="@+id/etNameProductBreakfast7"
+                    android:layout_below="@+id/etNameProductBreakfast6"
+
+                    />
+                android:layout_toRightOf="@+id/btnChangeBreakfast"
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:id="@+id/etGrammBreakfast7"
+                    android:fontFamily="casual"
+                    android:textStyle="bold"
+                    android:hint="Gram: "
+                    android:layout_toRightOf="@+id/etNameProductBreakfast7"
+                    android:layout_below="@+id/etKcalBreakfast6"
+                    android:inputType="numberDecimal"
+                    />
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:id="@+id/etKcalBreakfast7"
+                    android:fontFamily="casual"
+                    android:textStyle="bold"
+                    android:hint="Kcal: "
+                    android:layout_toRightOf="@+id/etGrammBreakfast7"
+                    android:layout_below="@+id/etKcalBreakfast6"
+                    android:inputType="numberDecimal"
+                    />
+
+              <!--  <Button
+                    android:layout_width="45dp"
+                    android:layout_height="370dp"
+                    android:text="X"
+                    android:id="@+id/btnDelBreakfast"
+                    android:layout_alignParentEnd="false"
+                    android:layout_alignParentRight="true" />-->
+
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/Lunch"
+            android:layout_below="@+id/Breakfast"
+            android:layout_width="match_parent"
+            android:layout_height="370dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="10dp"
+                android:id="@+id/layoutLunch"
+                >
+            <!--    <Button
+                    android:layout_width="45dp"
+                    android:layout_height="370dp"
+                    android:text="+"
+                    android:id="@+id/btnChangeLunch"
+                    />-->
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tvLunch"
+                    android:text="Lunch  "
+                    android:textSize="14sp"
+                    android:fontFamily="casual"
+                    android:textStyle="bold"
+
+                    />
+                android:layout_toRightOf="@+id/btnChangeLunch"
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tvGotLunch"
+                    android:text="Getting Cal.: "
+                    android:textSize="14sp"
+                    android:fontFamily="casual"
+                    android:textStyle="bold"
+                    android:layout_toRightOf="@+id/tvLunch" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tvSumCalLunch"
+                    android:text="Sum Cal:"
+                    android:textSize="14sp"
+                    android:fontFamily="casual"
+                    android:textStyle="bold"
+                    android:layout_toRightOf="@+id/tvGotLunch" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tvNameProductLunch"
+                    android:text="Name Product:  "
+                    android:textSize="14sp"
+                    android:fontFamily="casual"
+                    android:textStyle="bold"
+                    android:layout_below="@+id/tvLunch" />
+                android:layout_toRightOf="@+id/btnChangeLunch"
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tvNameGrammLunch"
+                    android:text="Gram:  "
+                    android:textSize="14sp"
+                    android:fontFamily="casual"
+                    android:textStyle="bold"
+                    android:layout_below="@+id/tvSumCalLunch"
+                    android:layout_toRightOf="@+id/tvNameProductLunch" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tvKkalLunch"
+                    android:text="KCal:"
+                    android:textSize="14sp"
+                    android:fontFamily="casual"
+                    android:textStyle="bold"
+                    android:layout_below="@+id/tvSumCalLunch"
+                    android:layout_toRightOf="@+id/tvNameGrammLunch" />
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:fontFamily="casual"
+                    android:textStyle="bold"
+                    android:hint="Name Product: "
+                    android:id="@+id/etNameProductLunch"
+                    android:layout_below="@+id/tvNameProductLunch"
+                    android:inputType="text"
+                    />
+                android:layout_toRightOf="@+id/btnChangeLunch"
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:id="@+id/etGrammLunch"
+                    android:fontFamily="casual"
+                    android:textStyle="bold"
+                    android:hint="Gram: "
+                    android:layout_toRightOf="@+id/etNameProductLunch"
+                    android:layout_below="@+id/tvNameGrammLunch"
+                    android:inputType="numberDecimal"
+                    />
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:id="@+id/etKcalLunch"
+                    android:fontFamily="casual"
+                    android:textStyle="bold"
+                    android:hint="Kcal: "
+                    android:layout_toRightOf="@+id/etGrammLunch"
+                    android:layout_below="@+id/tvNameGrammLunch"
+                    android:inputType="numberDecimal"
+                    />
+
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:fontFamily="casual"
+                    android:textStyle="bold"
+                    android:hint="Name Product: "
+                    android:id="@+id/etNameProductLunch2"
+                    android:layout_below="@+id/etNameProductLunch"
+
+                    />
+                android:layout_toRightOf="@+id/btnChangeLunch"
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:id="@+id/etGrammLunch2"
+                    android:fontFamily="casual"
+                    android:textStyle="bold"
+                    android:hint="Gram: "
+                    android:layout_toRightOf="@+id/etNameProductLunch2"
+                    android:layout_below="@+id/etKcalLunch"
+                    android:inputType="numberDecimal"
+                    />
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:id="@+id/etKcallunch2"
+                    android:fontFamily="casual"
+                    android:textStyle="bold"
+                    android:hint="Kcal: "
+                    android:layout_toRightOf="@+id/etGrammLunch2"
+                    android:layout_below="@+id/etKcalLunch"
+                    android:inputType="numberDecimal"
+                    />
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:fontFamily="casual"
+                    android:textStyle="bold"
+                    android:hint="Name Product: "
+                    android:id="@+id/etNameProductLunch3"
+                    android:layout_below="@+id/etNameProductLunch2"
+
+                    />
+                android:layout_toRightOf="@+id/btnChangeLunch"
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:id="@+id/etGrammLunch3"
+                    android:fontFamily="casual"
+                    android:textStyle="bold"
+                    android:hint="Gram: "
+                    android:layout_toRightOf="@+id/etNameProductLunch3"
+                    android:layout_below="@+id/etGrammLunch2"
+                    android:inputType="numberDecimal"
+                    />
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:id="@+id/etKcalLunch3"
+                    android:fontFamily="casual"
+                    android:textStyle="bold"
+                    android:hint="Kcal: "
+                    android:layout_toRightOf="@+id/etGrammLunch2"
+                    android:layout_below="@+id/etKcallunch2"
+                    android:inputType="numberDecimal"
+                    />
+
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:fontFamily="casual"
+                    android:textStyle="bold"
+                    android:hint="Name Product: "
+                    android:id="@+id/etNameProductLunch4"
+                    android:layout_below="@+id/etNameProductLunch3"
+
+                    />
+                android:layout_toRightOf="@+id/btnChangeLunch"
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:id="@+id/etGrammLunch4"
+                    android:fontFamily="casual"
+                    android:textStyle="bold"
+                    android:hint="Gram: "
+                    android:layout_toRightOf="@+id/etNameProductLunch4"
+                    android:layout_below="@+id/etKcalLunch3"
+                    android:inputType="numberDecimal"
+                    />
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:id="@+id/etKcalLunch4"
+                    android:fontFamily="casual"
+                    android:textStyle="bold"
+                    android:hint="Kcal: "
+                    android:layout_toRightOf="@+id/etGrammLunch4"
+                    android:layout_below="@+id/etKcalLunch3"
+                    android:inputType="numberDecimal"
+                    />
+
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:fontFamily="casual"
+                    android:textStyle="bold"
+                    android:hint="Name Product: "
+                    android:id="@+id/etNameProductLunch5"
+                    android:layout_below="@+id/etNameProductLunch4"
+
+                    />
+                android:layout_toRightOf="@+id/btnChangeLunch"
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:id="@+id/etGrammLunch5"
+                    android:fontFamily="casual"
+                    android:textStyle="bold"
+                    android:hint="Gram: "
+                    android:layout_toRightOf="@+id/etNameProductLunch5"
+                    android:layout_below="@+id/etKcalLunch4"
+                    android:inputType="numberDecimal"
+                    />
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:id="@+id/etKcalLunch5"
+                    android:fontFamily="casual"
+                    android:textStyle="bold"
+                    android:hint="Kcal: "
+                    android:layout_toRightOf="@+id/etGrammLunch5"
+                    android:layout_below="@+id/etKcalLunch4"
+                    android:inputType="numberDecimal"
+                    />
+
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:fontFamily="casual"
+                    android:textStyle="bold"
+                    android:hint="Name Product: "
+                    android:id="@+id/etNameProductLunch6"
+                    android:layout_below="@+id/etNameProductLunch5"
+
+                    />
+                android:layout_toRightOf="@+id/btnChangeLunch"
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:id="@+id/etGrammLunch6"
+                    android:fontFamily="casual"
+                    android:textStyle="bold"
+                    android:hint="Gram: "
+                    android:layout_toRightOf="@+id/etNameProductLunch6"
+                    android:layout_below="@+id/etKcalLunch5"
+                    android:inputType="numberDecimal"
+                    />
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:id="@+id/etKcalLunch6"
+                    android:fontFamily="casual"
+                    android:textStyle="bold"
+                    android:hint="Kcal: "
+                    android:layout_toRightOf="@+id/etGrammLunch6"
+                    android:layout_below="@+id/etKcalLunch5"
+                    android:inputType="numberDecimal"
+                    />
+
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:fontFamily="casual"
+                    android:textStyle="bold"
+                    android:hint="Name Product: "
+                    android:id="@+id/etNameProductLunch7"
+                    android:layout_below="@+id/etNameProductLunch6"
+
+                    />
+                android:layout_toRightOf="@+id/btnChangeLunch"
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:id="@+id/etGrammLunch7"
+                    android:fontFamily="casual"
+                    android:textStyle="bold"
+                    android:hint="Gram: "
+                    android:layout_toRightOf="@+id/etNameProductLunch7"
+                    android:layout_below="@+id/etKcalLunch6"
+                    android:inputType="numberDecimal"
+                    />
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:id="@+id/etKcalLunch7"
+                    android:fontFamily="casual"
+                    android:textStyle="bold"
+                    android:hint="Kcal: "
+                    android:layout_toRightOf="@+id/etGrammLunch7"
+                    android:layout_below="@+id/etKcalLunch6"
+                    android:inputType="numberDecimal"
+                    />
+
+
+             <!--   <Button
+                    android:layout_width="45dp"
+                    android:layout_height="370dp"
+                    android:text="X"
+                    android:id="@+id/btnDelLunch"
+                    android:layout_alignParentEnd="false"
+                    android:layout_alignParentRight="true" />-->
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+
+
+
+
+
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/Dinner"
+            android:layout_below="@+id/Lunch"
+            android:layout_width="match_parent"
+            android:layout_height="370dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="10dp"
+                android:id="@+id/layoutDinner"
+                >
+             <!--   <Button
+                    android:layout_width="45dp"
+                    android:layout_height="370dp"
+                    android:text="+"
+                    android:id="@+id/btnChangeDinner"
+                    />-->
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tvDinner"
+                    android:text="Dinner  "
+                    android:textSize="14sp"
+                    android:fontFamily="casual"
+                    android:textStyle="bold"
+
+                    />
+                android:layout_toRightOf="@+id/btnChangeDinner"
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tvGotDinner"
+                    android:text="Getting Cal.: "
+                    android:textSize="14sp"
+                    android:fontFamily="casual"
+                    android:textStyle="bold"
+                    android:layout_toRightOf="@+id/tvDinner" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tvSumCalDinner"
+                    android:text="Sum Cal:"
+                    android:textSize="14sp"
+                    android:fontFamily="casual"
+                    android:textStyle="bold"
+                    android:layout_toRightOf="@+id/tvGotDinner" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tvNameProductDinner"
+                    android:text="Name Product:  "
+                    android:textSize="14sp"
+                    android:fontFamily="casual"
+                    android:textStyle="bold"
+                    android:layout_below="@+id/tvDinner" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tvNameGrammDinner"
+                    android:text="Gram:  "
+                    android:textSize="14sp"
+                    android:fontFamily="casual"
+                    android:textStyle="bold"
+                    android:layout_below="@+id/tvSumCalDinner"
+                    android:layout_toRightOf="@+id/tvNameProductDinner" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tvKkalDinner"
+                    android:text="KCal:"
+                    android:textSize="14sp"
+                    android:fontFamily="casual"
+                    android:textStyle="bold"
+                    android:layout_below="@+id/tvSumCalDinner"
+                    android:layout_toRightOf="@+id/tvNameGrammDinner" />
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:fontFamily="casual"
+                    android:textStyle="bold"
+                    android:hint="Name Product: "
+                    android:id="@+id/etNameProductDinner"
+                    android:layout_below="@+id/tvNameProductDinner"
+                    android:inputType="text"
+                    />
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:id="@+id/etGrammDinner"
+                    android:fontFamily="casual"
+                    android:textStyle="bold"
+                    android:hint="Gram: "
+                    android:layout_toRightOf="@+id/etNameProductDinner"
+                    android:layout_below="@+id/tvNameGrammDinner"
+                    android:inputType="numberDecimal"
+                    />
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:id="@+id/etKcalDinner"
+                    android:fontFamily="casual"
+                    android:textStyle="bold"
+                    android:hint="Kcal: "
+                    android:layout_toRightOf="@+id/etGrammDinner"
+                    android:layout_below="@+id/tvNameGrammDinner"
+                    android:inputType="numberDecimal"
+                    />
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:fontFamily="casual"
+                    android:textStyle="bold"
+                    android:hint="Name Product: "
+                    android:id="@+id/etNameProductDinner2"
+                    android:layout_below="@+id/etNameProductDinner"
+
+                    />
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:id="@+id/etGrammDinner2"
+                    android:fontFamily="casual"
+                    android:textStyle="bold"
+                    android:hint="Gram: "
+                    android:layout_toRightOf="@+id/etNameProductDinner2"
+                    android:layout_below="@+id/etKcalDinner"
+                    android:inputType="numberDecimal"
+                    />
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:id="@+id/etKcalDinner2"
+                    android:fontFamily="casual"
+                    android:textStyle="bold"
+                    android:hint="Kcal: "
+                    android:layout_toRightOf="@+id/etGrammDinner2"
+                    android:layout_below="@+id/etKcalDinner"
+                    android:inputType="numberDecimal"
+                    />
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:fontFamily="casual"
+                    android:textStyle="bold"
+                    android:hint="Name Product: "
+                    android:id="@+id/etNameProductDinner3"
+                    android:layout_below="@+id/etNameProductDinner2"
+
+                    />
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:id="@+id/etGrammDinner3"
+                    android:fontFamily="casual"
+                    android:textStyle="bold"
+                    android:hint="Gram: "
+                    android:layout_toRightOf="@+id/etNameProductDinner3"
+                    android:layout_below="@+id/etKcalDinner2"
+                    android:inputType="numberDecimal"
+                    />
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:id="@+id/etKcalDinner3"
+                    android:fontFamily="casual"
+                    android:textStyle="bold"
+                    android:hint="Kcal: "
+                    android:layout_toRightOf="@+id/etGrammDinner2"
+                    android:layout_below="@+id/etKcalDinner2"
+                    android:inputType="numberDecimal"
+                    />
+
+
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:fontFamily="casual"
+                    android:textStyle="bold"
+                    android:hint="Name Product: "
+                    android:id="@+id/etNameProductDinner4"
+                    android:layout_below="@+id/etNameProductDinner3"
+
+                    />
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:id="@+id/etGrammDinner4"
+                    android:fontFamily="casual"
+                    android:textStyle="bold"
+                    android:hint="Gram: "
+                    android:layout_toRightOf="@+id/etNameProductDinner4"
+                    android:layout_below="@+id/etKcalDinner3"
+                    android:inputType="numberDecimal"
+                    />
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:id="@+id/etKcalDinner4"
+                    android:fontFamily="casual"
+                    android:textStyle="bold"
+                    android:hint="Kcal: "
+                    android:layout_toRightOf="@+id/etGrammDinner4"
+                    android:layout_below="@+id/etKcalDinner3"
+                    android:inputType="numberDecimal"
+                    />
+
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:fontFamily="casual"
+                    android:textStyle="bold"
+                    android:hint="Name Product: "
+                    android:id="@+id/etNameProductDinner5"
+                    android:layout_below="@+id/etNameProductDinner4"
+
+                    />
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:id="@+id/etGrammDinner5"
+                    android:fontFamily="casual"
+                    android:textStyle="bold"
+                    android:hint="Gram: "
+                    android:layout_toRightOf="@+id/etNameProductDinner5"
+                    android:layout_below="@+id/etKcalDinner4"
+                    android:inputType="numberDecimal"
+                    />
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:id="@+id/etKcalDinner5"
+                    android:fontFamily="casual"
+                    android:textStyle="bold"
+                    android:hint="Kcal: "
+                    android:layout_toRightOf="@+id/etGrammDinner5"
+                    android:layout_below="@+id/etKcalDinner4"
+                    android:inputType="numberDecimal"
+                    />
+
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:fontFamily="casual"
+                    android:textStyle="bold"
+                    android:hint="Name Product: "
+                    android:id="@+id/etNameProductDinner6"
+                    android:layout_below="@+id/etNameProductDinner5"
+
+                    />
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:id="@+id/etGrammDinner6"
+                    android:fontFamily="casual"
+                    android:textStyle="bold"
+                    android:hint="Gram: "
+                    android:layout_toRightOf="@+id/etNameProductDinner6"
+                    android:layout_below="@+id/etKcalDinner5"
+                    android:inputType="numberDecimal"
+                    />
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:id="@+id/etKcalDinner6"
+                    android:fontFamily="casual"
+                    android:textStyle="bold"
+                    android:hint="Kcal: "
+                    android:layout_toRightOf="@+id/etGrammDinner6"
+                    android:layout_below="@+id/etKcalDinner5"
+                    android:inputType="numberDecimal"
+                    />
+
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:fontFamily="casual"
+                    android:textStyle="bold"
+                    android:hint="Name Product: "
+                    android:id="@+id/etNameProductDinner7"
+                    android:layout_below="@+id/etNameProductDinner6"
+
+                    />
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:id="@+id/etGrammDinner7"
+                    android:fontFamily="casual"
+                    android:textStyle="bold"
+                    android:hint="Gram: "
+                    android:layout_toRightOf="@+id/etNameProductDinner7"
+                    android:layout_below="@+id/etKcalDinner6"
+                    android:inputType="numberDecimal"
+                    />
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:id="@+id/etKcalDinner7"
+                    android:fontFamily="casual"
+                    android:textStyle="bold"
+                    android:hint="Kcal: "
+                    android:layout_toRightOf="@+id/etGrammDinner7"
+                    android:layout_below="@+id/etKcalDinner6"
+                    android:inputType="numberDecimal"
+                    />
+
+
+              <!--  <Button
+                    android:layout_width="45dp"
+                    android:layout_height="370dp"
+                    android:text="X"
+                    android:id="@+id/btnDelDinner"
+                    android:layout_alignParentEnd="false"
+                    android:layout_alignParentRight="true" />-->
+            </RelativeLayout>
+
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/Snakes"
+            android:layout_below="@+id/Dinner"
+            android:layout_width="match_parent"
+            android:layout_height="370dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="10dp"
+                android:id="@+id/layoutSnakes"
+                >
+               <!-- <Button
+                    android:layout_width="45dp"
+                    android:layout_height="370dp"
+                    android:text="+"
+                    android:id="@+id/btnChangeSnakes"
+                    />-->
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tvSnakes"
+                    android:text="Snacks  "
+                    android:textSize="14sp"
+                    android:fontFamily="casual"
+                    android:textStyle="bold"
+
+                    />
+                android:layout_toRightOf="@+id/btnChangeSnakes"
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tvGotSnakes"
+                    android:text="Getting Cal.: "
+                    android:textSize="14sp"
+                    android:fontFamily="casual"
+                    android:textStyle="bold"
+                    android:layout_toRightOf="@+id/tvSnakes" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tvSumCalSnakes"
+                    android:text="Sum Cal:"
+                    android:textSize="14sp"
+                    android:fontFamily="casual"
+                    android:textStyle="bold"
+                    android:layout_toRightOf="@+id/tvGotSnakes" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tvNameProductSnakes"
+                    android:text="Name Product:  "
+                    android:textSize="14sp"
+                    android:fontFamily="casual"
+                    android:textStyle="bold"
+                    android:layout_below="@+id/tvSnakes" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tvNameGrammSnakes"
+                    android:text="Gram:  "
+                    android:textSize="14sp"
+                    android:fontFamily="casual"
+                    android:textStyle="bold"
+                    android:layout_below="@+id/tvSumCalSnakes"
+                    android:layout_toRightOf="@+id/tvNameProductSnakes" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tvKkalSnakes"
+                    android:text="KCal:"
+                    android:textSize="14sp"
+                    android:fontFamily="casual"
+                    android:textStyle="bold"
+                    android:layout_below="@+id/tvSumCalSnakes"
+                    android:layout_toRightOf="@+id/tvNameGrammSnakes" />
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:fontFamily="casual"
+                    android:textStyle="bold"
+                    android:hint="Name Product: "
+                    android:id="@+id/etNameProductSnakes"
+                    android:layout_below="@+id/tvNameProductSnakes"
+                    android:inputType="text"
+                    />
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:id="@+id/etGrammSnakes"
+                    android:fontFamily="casual"
+                    android:textStyle="bold"
+                    android:hint="Gram: "
+                    android:layout_toRightOf="@+id/etNameProductSnakes"
+                    android:layout_below="@+id/tvNameGrammSnakes"
+                    android:inputType="numberDecimal"
+                    />
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:id="@+id/etKcalSnakes"
+                    android:fontFamily="casual"
+                    android:textStyle="bold"
+                    android:hint="Kcal: "
+                    android:layout_toRightOf="@+id/etGrammSnakes"
+                    android:layout_below="@+id/tvNameGrammSnakes"
+                    android:inputType="numberDecimal"
+                    />
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:fontFamily="casual"
+                    android:textStyle="bold"
+                    android:hint="Name Product: "
+                    android:id="@+id/etNameProductSnakes2"
+                    android:layout_below="@+id/etNameProductSnakes"
+
+                    />
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:id="@+id/etGrammSnakes2"
+                    android:fontFamily="casual"
+                    android:textStyle="bold"
+                    android:hint="Gram: "
+                    android:layout_toRightOf="@+id/etNameProductSnakes2"
+                    android:layout_below="@+id/etKcalSnakes"
+                    android:inputType="numberDecimal"
+                    />
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:id="@+id/etKcalSnakes2"
+                    android:fontFamily="casual"
+                    android:textStyle="bold"
+                    android:hint="Kcal: "
+                    android:layout_toRightOf="@+id/etGrammSnakes2"
+                    android:layout_below="@+id/etKcalSnakes"
+                    android:inputType="numberDecimal"
+                    />
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:fontFamily="casual"
+                    android:textStyle="bold"
+                    android:hint="Name Product: "
+                    android:id="@+id/etNameProductSnakes3"
+                    android:layout_below="@+id/etNameProductSnakes2"
+
+                    />
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:id="@+id/etGrammSnakes3"
+                    android:fontFamily="casual"
+                    android:textStyle="bold"
+                    android:hint="Gram: "
+                    android:layout_toRightOf="@+id/etNameProductSnakes3"
+                    android:layout_below="@+id/etKcalSnakes2"
+                    android:inputType="numberDecimal"
+                    />
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:id="@+id/etKcalSnakes3"
+                    android:fontFamily="casual"
+                    android:textStyle="bold"
+                    android:hint="Kcal: "
+                    android:layout_toRightOf="@+id/etGrammSnakes2"
+                    android:layout_below="@+id/etKcalSnakes2"
+                    android:inputType="numberDecimal"
+                    />
+
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:fontFamily="casual"
+                    android:textStyle="bold"
+                    android:hint="Name Product: "
+                    android:id="@+id/etNameProductSnakes4"
+                    android:layout_below="@+id/etNameProductSnakes3"
+
+                    />
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:id="@+id/etGrammSnakes4"
+                    android:fontFamily="casual"
+                    android:textStyle="bold"
+                    android:hint="Gram: "
+                    android:layout_toRightOf="@+id/etNameProductSnakes4"
+                    android:layout_below="@+id/etKcalSnakes3"
+                    android:inputType="numberDecimal"
+                    />
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:id="@+id/etKcalSnakes4"
+                    android:fontFamily="casual"
+                    android:textStyle="bold"
+                    android:hint="Kcal: "
+                    android:layout_toRightOf="@+id/etGrammSnakes4"
+                    android:layout_below="@+id/etKcalSnakes3"
+                    android:inputType="numberDecimal"
+                    />
+
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:fontFamily="casual"
+                    android:textStyle="bold"
+                    android:hint="Name Product: "
+                    android:id="@+id/etNameProductSnakes5"
+                    android:layout_below="@+id/etNameProductSnakes4"
+
+                    />
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:id="@+id/etGrammSnakes5"
+                    android:fontFamily="casual"
+                    android:textStyle="bold"
+                    android:hint="Gram: "
+                    android:layout_toRightOf="@+id/etNameProductSnakes5"
+                    android:layout_below="@+id/etKcalSnakes4"
+                    android:inputType="numberDecimal"
+                    />
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:id="@+id/etKcalSnakes5"
+                    android:fontFamily="casual"
+                    android:textStyle="bold"
+                    android:hint="Kcal: "
+                    android:layout_toRightOf="@+id/etGrammSnakes5"
+                    android:layout_below="@+id/etKcalSnakes4"
+                    android:inputType="numberDecimal"
+                    />
+
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:fontFamily="casual"
+                    android:textStyle="bold"
+                    android:hint="Name Product: "
+                    android:id="@+id/etNameProductSnakes6"
+                    android:layout_below="@+id/etNameProductSnakes5"
+
+                    />
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:id="@+id/etGrammSnakes6"
+                    android:fontFamily="casual"
+                    android:textStyle="bold"
+                    android:hint="Gram: "
+                    android:layout_toRightOf="@+id/etNameProductSnakes6"
+                    android:layout_below="@+id/etKcalSnakes5"
+                    android:inputType="numberDecimal"
+                    />
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:id="@+id/etKcalSnakes6"
+                    android:fontFamily="casual"
+                    android:textStyle="bold"
+                    android:hint="Kcal: "
+                    android:layout_toRightOf="@+id/etGrammSnakes6"
+                    android:layout_below="@+id/etKcalSnakes5"
+                    android:inputType="numberDecimal"
+                    />
+
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:fontFamily="casual"
+                    android:textStyle="bold"
+                    android:hint="Name Product: "
+                    android:id="@+id/etNameProductSnakes7"
+                    android:layout_below="@+id/etNameProductSnakes6"
+
+                    />
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:id="@+id/etGrammSnakes7"
+                    android:fontFamily="casual"
+                    android:textStyle="bold"
+                    android:hint="Gram: "
+                    android:layout_toRightOf="@+id/etNameProductSnakes7"
+                    android:layout_below="@+id/etKcalSnakes6"
+                    android:inputType="numberDecimal"
+                    />
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:id="@+id/etKcalSnakes7"
+                    android:fontFamily="casual"
+                    android:textStyle="bold"
+                    android:hint="Kcal: "
+                    android:layout_toRightOf="@+id/etGrammSnakes7"
+                    android:layout_below="@+id/etKcalSnakes6"
+                    android:inputType="numberDecimal"
+                    />
+
+               <!-- <Button
+                    android:layout_width="45dp"
+                    android:layout_height="370dp"
+                    android:text="X"
+                    android:id="@+id/btnDelSnakes"
+                    android:layout_alignParentEnd="false"
+                    android:layout_alignParentRight="true" />-->
+            </RelativeLayout>
+
+
+        </android.support.v7.widget.CardView>
+
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/Acts"
+            android:layout_below="@+id/Snakes"
+            android:layout_width="match_parent"
+            android:layout_height="200dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="10dp"
+                android:id="@+id/layoutActs"
+                >
+           <!--    <Button
+                    android:layout_width="45dp"
+                    android:layout_height="200dp"
+                    android:text="+"
+                    android:id="@+id/btnChangeActs"
+                    />-->
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tvActs"
+                    android:text="Acts  "
+                    android:textSize="14sp"
+                    android:fontFamily="casual"
+                    android:textStyle="bold"
+
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tvGotActs"
+                    android:text="Getting Cal.: "
+                    android:textSize="14sp"
+                    android:fontFamily="casual"
+                    android:textStyle="bold"
+                    android:layout_toRightOf="@+id/tvActs" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tvSumCalActs"
+                    android:text="Sum Cal:"
+                    android:textSize="14sp"
+                    android:fontFamily="casual"
+                    android:textStyle="bold"
+                    android:layout_toRightOf="@+id/tvGotActs" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tvNameProductActs"
+                    android:text="Name Product:  "
+                    android:textSize="14sp"
+                    android:fontFamily="casual"
+                    android:textStyle="bold"
+                    android:layout_below="@+id/tvActs" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tvNameMinActs"
+                    android:text="Min:  "
+                    android:textSize="14sp"
+                    android:fontFamily="casual"
+                    android:textStyle="bold"
+                    android:layout_below="@+id/tvSumCalActs"
+                    android:layout_toRightOf="@+id/tvNameProductActs" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tvKkalActs"
+                    android:text="KCal:"
+                    android:textSize="14sp"
+                    android:fontFamily="casual"
+                    android:textStyle="bold"
+                    android:layout_below="@+id/tvSumCalActs"
+                    android:layout_toRightOf="@+id/tvNameMinActs" />
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:fontFamily="casual"
+                    android:textStyle="bold"
+                    android:hint="Name Product: "
+                    android:id="@+id/etNameProductActs"
+                    android:layout_below="@+id/tvNameProductActs"
+                    android:inputType="text"
+                    />
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:id="@+id/etMinActs"
+                    android:fontFamily="casual"
+                    android:textStyle="bold"
+                    android:hint="Min: "
+                    android:layout_toRightOf="@+id/etNameProductActs"
+                    android:layout_below="@+id/tvNameMinActs"
+                    android:inputType="numberDecimal"
+                    />
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:id="@+id/etKcalActs"
+                    android:fontFamily="casual"
+                    android:textStyle="bold"
+                    android:hint="Kcal: "
+                    android:layout_toRightOf="@+id/etMinActs"
+                    android:layout_below="@+id/tvNameMinActs"
+                    android:inputType="numberDecimal"
+                    />
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:fontFamily="casual"
+                    android:textStyle="bold"
+                    android:hint="Name Product: "
+                    android:id="@+id/etNameProductActs2"
+                    android:layout_below="@+id/etNameProductActs"
+
+                    />
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:id="@+id/etMinActs2"
+                    android:fontFamily="casual"
+                    android:textStyle="bold"
+                    android:hint="Min: "
+                    android:layout_toRightOf="@+id/etNameProductActs2"
+                    android:layout_below="@+id/etKcalActs"
+                    android:inputType="numberDecimal"
+                    />
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:id="@+id/etKcalActs2"
+                    android:fontFamily="casual"
+                    android:textStyle="bold"
+                    android:hint="Kcal: "
+                    android:layout_toRightOf="@+id/etMinActs2"
+                    android:layout_below="@+id/etKcalActs"
+                    android:inputType="numberDecimal"
+                    />
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:fontFamily="casual"
+                    android:textStyle="bold"
+                    android:hint="Name Product: "
+                    android:id="@+id/etNameProductActs3"
+                    android:layout_below="@+id/etNameProductActs2"
+
+                    />
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:id="@+id/etMinActs3"
+                    android:fontFamily="casual"
+                    android:textStyle="bold"
+                    android:hint="Min: "
+                    android:layout_toRightOf="@+id/etNameProductActs3"
+                    android:layout_below="@+id/etKcalActs2"
+                    android:inputType="numberDecimal"
+                    />
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:id="@+id/etKcalActs3"
+                    android:fontFamily="casual"
+                    android:textStyle="bold"
+                    android:hint="Kcal: "
+                    android:layout_toRightOf="@+id/etMinActs3"
+                    android:layout_below="@+id/etKcalActs2"
+                    android:inputType="numberDecimal"
+                    />
+
+
+             <!--   <Button
+                    android:layout_width="45dp"
+                    android:layout_height="200dp"
+                    android:text="X"
+                    android:id="@+id/btnDelActs"
+                    android:layout_alignParentEnd="false"
+                    android:layout_alignParentRight="true" />-->
+            </RelativeLayout>
+
+
+        </android.support.v7.widget.CardView>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvSumDayCal"
+            android:text="Day Sum cal: "
+            android:textSize="16sp"
+            android:fontFamily="casual"
+            android:textStyle="bold"
+            android:layout_below="@+id/Acts"
+            android:textColor="#000000"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvCalSumDayCal"
+            android:text="Recommended cal: "
+            android:textSize="16sp"
+            android:fontFamily="casual"
+            android:textStyle="bold"
+            android:layout_below="@+id/Acts"
+            android:layout_toRightOf="@+id/tvSumDayCal"
+            android:textColor="#000000"
+            />
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvRecomendCal"
+            android:text="Recommended calories: "
+            android:textSize="16sp"
+            android:fontFamily="casual"
+            android:textStyle="bold"
+            android:layout_below="@+id/tvSumDayCal"
+            android:textColor="#f40808"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvSumRecomendCal"
+            android:text=""
+            android:textSize="16sp"
+            android:fontFamily="casual"
+            android:textStyle="bold"
+            android:layout_below="@+id/tvCalSumDayCal"
+            android:layout_toRightOf="@+id/tvRecomendCal"
+            android:textColor="#f40808"
+            />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvRecomendExtraCal"
+            android:text="Recommended  extra calories: "
+            android:textSize="16sp"
+            android:fontFamily="casual"
+            android:textStyle="bold"
+            android:layout_below="@+id/tvRecomendCal"
+            android:textColor="#f40808"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvSumRecomendExtraCal"
+            android:text=""
+            android:textSize="16sp"
+            android:fontFamily="casual"
+            android:textStyle="bold"
+            android:layout_below="@+id/tvRecomendCal"
+            android:layout_toRightOf="@+id/tvRecomendExtraCal"
+            android:textColor="#f40808"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvDate"
+            android:text="The current day is: "
+            android:textSize="14sp"
+            android:fontFamily="casual"
+            android:textStyle="bold"
+            android:layout_below="@+id/tvRecomendExtraCal"
+             />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvRealDate"
+            android:text="Real date"
+            android:textSize="14sp"
+            android:fontFamily="casual"
+            android:textStyle="bold"
+            android:layout_toRightOf="@+id/tvDate"
+            android:layout_below="@+id/tvSumRecomendExtraCal"
+            />
+
+
+    </RelativeLayout>
+
+</android.support.v4.widget.NestedScrollView>
+

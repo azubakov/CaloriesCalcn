@@ -1,0 +1,86 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:padding="10dp"
+    android:layout_height="wrap_content"
+    tools:context=".dialogs.AddMessageDialogFragment">
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etDate"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:hint="date" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etSumBreakfast"
+        android:layout_below="@+id/etDate"
+        android:layout_centerHorizontal="true"
+        android:hint="Sum calories of breakfast"
+        android:inputType="numberDecimal"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etSumLunch"
+        android:layout_below="@+id/etSumBreakfast"
+        android:layout_centerHorizontal="true"
+        android:hint="Sum calories of lunch"
+        android:inputType="numberDecimal"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etSumDinner"
+        android:layout_below="@+id/etSumLunch"
+        android:layout_centerHorizontal="true"
+        android:hint="Sum calories of dinner"
+        android:inputType="numberDecimal"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etSumSnakes"
+        android:layout_below="@+id/etSumDinner"
+        android:layout_centerHorizontal="true"
+        android:hint="Sum calories of snakes"
+        android:inputType="numberDecimal"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etSumActs"
+        android:layout_below="@+id/etSumSnakes"
+        android:layout_centerHorizontal="true"
+        android:hint="Sum calories of acts"
+        android:inputType="numberDecimal"
+        />
+
+  <!--  <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etDairySum"
+        android:layout_below="@+id/etSumActs"
+        android:layout_centerHorizontal="true"
+        android:hint="dairy Sum calories of acts"
+        android:inputType="numberDecimal"
+        />-->
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save"
+        android:id="@+id/btnSave"
+        android:layout_below="@+id/etSumActs"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+</RelativeLayout>
