@@ -1,12 +1,3 @@
 <?xml version="1.0" encoding="utf-8"?>
-<items version="2" >
+<items version="2" />
 
-    <item
-        jar="D:\Users\user1\AndroidStudioProjects\CaloriesCalcn\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
-        jumboMode="true"
-        revision="24.0.0"
-        sha1="d9ffece1f10753b3651869ba2212a0a9e7cad735">
-        <dex dex="D:\Users\user1\AndroidStudioProjects\CaloriesCalcn\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_babd72f18e4963b14fa820af93f1992e58d42195\classes.dex" />
-    </item>
-
-</items>

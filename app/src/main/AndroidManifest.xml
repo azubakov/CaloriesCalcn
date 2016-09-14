@@ -155,6 +155,10 @@
         <activity
             android:name=".activity.RecyclerVegetablesProductsActivity"
             android:label="@string/title_activity_recycler_vegetables_products"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activity.RecyclerDrinkProductsActivity"
+            android:label="@string/title_activity_recycler_drink_products"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 

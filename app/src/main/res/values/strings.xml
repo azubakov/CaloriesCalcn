@@ -165,6 +165,7 @@
         <item>Milk</item>
         <item>Fruits</item>
         <item>Vegetables</item>
+        <item>Drinks</item>
         <item>Popular</item>
         <item>Acts</item>
     </string-array>
@@ -172,4 +173,5 @@
     <string name="title_activity_recycler_fruits">RecyclerFruitsActivity</string>
     <string name="title_activity_recycler_vegetables_products">RecyclerVegetablesProductsActivity
     </string>
+    <string name="title_activity_recycler_drink_products">RecyclerDrinkProductsActivity</string>
 </resources>

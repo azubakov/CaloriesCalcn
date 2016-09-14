@@ -176,6 +176,10 @@
             android:name="azubakov.edu.caloriescalc.activity.RecyclerVegetablesProductsActivity"
             android:label="@string/title_activity_recycler_vegetables_products"
             android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="azubakov.edu.caloriescalc.activity.RecyclerDrinkProductsActivity"
+            android:label="@string/title_activity_recycler_drink_products"
+            android:theme="@style/AppTheme.NoActionBar" />
 
         <receiver
             android:name="com.google.android.gms.measurement.AppMeasurementReceiver"

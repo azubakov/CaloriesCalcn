@@ -8,6 +8,10 @@
         "source": "D:\\Users\\user1\\AndroidStudioProjects\\CaloriesCalcn\\app\\src\\main\\res\\layout\\body_list_item.xml"
     },
     {
+        "merged": "D:\\Users\\user1\\AndroidStudioProjects\\CaloriesCalcn\\app\\build\\intermediates\\res\\merged\\debug\\layout\\drink_item.xml",
+        "source": "D:\\Users\\user1\\AndroidStudioProjects\\CaloriesCalcn\\app\\src\\main\\res\\layout\\drink_item.xml"
+    },
+    {
         "merged": "D:\\Users\\user1\\AndroidStudioProjects\\CaloriesCalcn\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_item_material.xml",
         "source": "D:\\Users\\user1\\AndroidStudioProjects\\CaloriesCalcn\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\layout\\select_dialog_item_material.xml"
     },
@@ -216,6 +220,10 @@
         "source": "D:\\Users\\user1\\AndroidStudioProjects\\CaloriesCalcn\\app\\src\\main\\res\\layout\\activity_calories_details_basic.xml"
     },
     {
+        "merged": "D:\\Users\\user1\\AndroidStudioProjects\\CaloriesCalcn\\app\\build\\intermediates\\res\\merged\\debug\\layout\\content_recycler_drink_products.xml",
+        "source": "D:\\Users\\user1\\AndroidStudioProjects\\CaloriesCalcn\\app\\src\\main\\res\\layout\\content_recycler_drink_products.xml"
+    },
+    {
         "merged": "D:\\Users\\user1\\AndroidStudioProjects\\CaloriesCalcn\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_close_item_material.xml",
         "source": "D:\\Users\\user1\\AndroidStudioProjects\\CaloriesCalcn\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\layout\\abc_action_mode_close_item_material.xml"
     },
@@ -242,6 +250,10 @@
     {
         "merged": "D:\\Users\\user1\\AndroidStudioProjects\\CaloriesCalcn\\app\\build\\intermediates\\res\\merged\\debug\\layout\\bread_item.xml",
         "source": "D:\\Users\\user1\\AndroidStudioProjects\\CaloriesCalcn\\app\\src\\main\\res\\layout\\bread_item.xml"
+    },
+    {
+        "merged": "D:\\Users\\user1\\AndroidStudioProjects\\CaloriesCalcn\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_add_drink_product_dialog.xml",
+        "source": "D:\\Users\\user1\\AndroidStudioProjects\\CaloriesCalcn\\app\\src\\main\\res\\layout\\fragment_add_drink_product_dialog.xml"
     },
     {
         "merged": "D:\\Users\\user1\\AndroidStudioProjects\\CaloriesCalcn\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_layout.xml",
@@ -272,12 +284,12 @@
         "source": "D:\\Users\\user1\\AndroidStudioProjects\\CaloriesCalcn\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\layout\\notification_media_action.xml"
     },
     {
-        "merged": "D:\\Users\\user1\\AndroidStudioProjects\\CaloriesCalcn\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_toolbar.xml",
-        "source": "D:\\Users\\user1\\AndroidStudioProjects\\CaloriesCalcn\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\layout\\abc_screen_toolbar.xml"
-    },
-    {
         "merged": "D:\\Users\\user1\\AndroidStudioProjects\\CaloriesCalcn\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_add_vegetables_product_dialog.xml",
         "source": "D:\\Users\\user1\\AndroidStudioProjects\\CaloriesCalcn\\app\\src\\main\\res\\layout\\fragment_add_vegetables_product_dialog.xml"
+    },
+    {
+        "merged": "D:\\Users\\user1\\AndroidStudioProjects\\CaloriesCalcn\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_toolbar.xml",
+        "source": "D:\\Users\\user1\\AndroidStudioProjects\\CaloriesCalcn\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\layout\\abc_screen_toolbar.xml"
     },
     {
         "merged": "D:\\Users\\user1\\AndroidStudioProjects\\CaloriesCalcn\\app\\build\\intermediates\\res\\merged\\debug\\layout\\nav_header_right_calorie_nav_drawer.xml",
@@ -422,6 +434,10 @@
     {
         "merged": "D:\\Users\\user1\\AndroidStudioProjects\\CaloriesCalcn\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_recycler_meat_products.xml",
         "source": "D:\\Users\\user1\\AndroidStudioProjects\\CaloriesCalcn\\app\\src\\main\\res\\layout\\activity_recycler_meat_products.xml"
+    },
+    {
+        "merged": "D:\\Users\\user1\\AndroidStudioProjects\\CaloriesCalcn\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_recycler_drink_products.xml",
+        "source": "D:\\Users\\user1\\AndroidStudioProjects\\CaloriesCalcn\\app\\src\\main\\res\\layout\\activity_recycler_drink_products.xml"
     },
     {
         "merged": "D:\\Users\\user1\\AndroidStudioProjects\\CaloriesCalcn\\app\\build\\intermediates\\res\\merged\\debug\\layout\\content_nutritionix.xml",

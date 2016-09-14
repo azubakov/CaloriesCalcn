@@ -8,6 +8,7 @@
         <item>Milk</item>
         <item>Fruits</item>
         <item>Vegetables</item>
+        <item>Drinks</item>
         <item>Popular</item>
         <item>Acts</item>
     </string-array>
@@ -547,6 +548,7 @@
     <string name="title_activity_recycle_info_body">RecycleInfoBody</string>
     <string name="title_activity_recycler_acts">RecyclerActsActivity</string>
     <string name="title_activity_recycler_bread_products">RecyclerBreadProductsActivity</string>
+    <string name="title_activity_recycler_drink_products">RecyclerDrinkProductsActivity</string>
     <string name="title_activity_recycler_fish_products">RecyclerFishProductsActivity</string>
     <string name="title_activity_recycler_fruits">RecyclerFruitsActivity</string>
     <string name="title_activity_recycler_meat_products">RecyclerMeatProductsActivity</string>

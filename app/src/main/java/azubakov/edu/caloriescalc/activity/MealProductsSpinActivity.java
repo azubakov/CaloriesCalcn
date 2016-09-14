@@ -78,6 +78,13 @@ public class MealProductsSpinActivity extends AppCompatActivity implements Adapt
             startActivity(intent);
         }
 
+        else if (item.equals("Drinks"))
+        {
+            Intent intent = new Intent(this, RecyclerDrinkProductsActivity.class);
+            startActivity(intent);
+        }
+
+
         else if (item.equals("Bread"))
         {
             Intent intent = new Intent(this, RecyclerBreadProductsActivity.class);

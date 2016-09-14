@@ -4,30 +4,35 @@
     api-level="23"
     density="xxhdpi"
     format="7"
-    timestamp="42510031052425"
+    timestamp="45019666251067"
     token="-6509457892269844701" >
 
     <task
         name="javac"
-        duration="5343" />
+        duration="516" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="992" />
+        duration="26" />
     <task
         name="verifier"
-        duration="123" />
+        duration="1" />
 
     <artifact
-        location="D:\Users\user1\AndroidStudioProjects\CaloriesCalcn\app\build\outputs\apk\app-debug.apk"
-        type="MAIN" />
+        location="D:\Users\user1\AndroidStudioProjects\CaloriesCalcn\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_3\classes.dex"
+        type="DEX" />
 
-    <build timestamp="42510031052425" >
+    <build timestamp="44909342818843" >
         <artifact
             location="D:\Users\user1\AndroidStudioProjects\CaloriesCalcn\app\build\outputs\apk\app-debug.apk"
             type="MAIN" />
+    </build>
+    <build timestamp="45019666251067" >
+        <artifact
+            location="D:\Users\user1\AndroidStudioProjects\CaloriesCalcn\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_3\classes.dex"
+            type="DEX" />
     </build>
 
 </instant-run>
