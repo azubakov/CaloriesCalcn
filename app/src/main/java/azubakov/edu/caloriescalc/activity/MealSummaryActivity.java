@@ -52,7 +52,7 @@ public class MealSummaryActivity extends AppCompatActivity {
     //Double Sumdayproteins, Sumdayfats, Sumdaycarbohydrates;
     Integer Countbreakfast, Countlunch, Countdinner, Countsnakes, Countacts;
     TextView tvSumDayRealProteins, tvSumDayRealFats, tvSumDayRealCarbohydrates;
-    Double  Sumbreakfast,Sumlunch,Sumdinner, Sumsnakes;
+    Double  Sumbreakfast,Sumlunch,Sumdinner, Sumsnakes, Sumacts, Sumdayminacts;
 
 
 
@@ -255,8 +255,8 @@ public class MealSummaryActivity extends AppCompatActivity {
 
                 if (s.getCategoryName().equals("acts"))
                 {
-                    Sumdayacts = s.getSumCalories();
-                    Sumdaygrammacts = s.getSumGrams();
+                    Sumdayacts = s.getSumActs();
+                    Sumdayminacts = s.getSumMinActs();
                     Countacts = s.getCount();
                 }
                 
@@ -286,7 +286,13 @@ public class MealSummaryActivity extends AppCompatActivity {
             else
                 Sumsnakes = Sumdaysnakes * Sumdaygrammsnakes / (Countsnakes * 100);
             //double Sumacts = MealSummaryFragment.SumDayActs * MealSummaryFragment.SumDayActsMinuts / (MealSummaryFragment.CountActs * 60);
-            double Sumacts = Sumdayacts * Sumdaygrammacts / (Countacts * 60);
+            ////Sumacts = Sumdayacts * Sumdayminacts / (Countacts * 60);
+            if (Sumdayacts == 0.0 || Sumdayminacts == 0.0 || Countacts == 0)
+                Sumacts = 0D;
+            else
+                Sumacts = Sumdayacts * Sumdayminacts / (Countacts * 60);
+
+
 
             double Sumdayproteins = Sumdayproteinsbreakfast + Sumdayproteinslunch + Sumdayproteinsdinner + Sumdayproteinssnakes;
             double Sumdayfats = Sumdayfatsbreakfast + Sumdayfatslunch + Sumdayfatsdinner + Sumdayfatssnakes;

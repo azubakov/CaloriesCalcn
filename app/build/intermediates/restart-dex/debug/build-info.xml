@@ -1,30 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <instant-run
-    abi="armeabi-v7a,armeabi"
+    abi="x86_64,x86"
     api-level="23"
     density="xxhdpi"
     format="7"
-    timestamp="29264964920359"
+    timestamp="12824748294756"
     token="-6509457892269844701" >
 
     <task
         name="javac"
-        duration="3347" />
+        duration="2291" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="1703" />
+        duration="1203" />
     <task
         name="verifier"
-        duration="500" />
+        duration="764" />
 
     <artifact
         location="D:\Users\user1\AndroidStudioProjects\CaloriesCalcn\app\build\outputs\apk\app-debug.apk"
         type="MAIN" />
 
-    <build timestamp="29264964920359" >
+    <build timestamp="12824748294756" >
         <artifact
             location="D:\Users\user1\AndroidStudioProjects\CaloriesCalcn\app\build\outputs\apk\app-debug.apk"
             type="MAIN" />

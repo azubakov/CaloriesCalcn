@@ -33,7 +33,7 @@
         jar="D:\Users\user1\AndroidStudioProjects\CaloriesCalcn\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
         jumboMode="true"
         revision="24.0.0"
-        sha1="c15170b964ce7ec436c8a1cf528ef2947f824ca8">
+        sha1="04a1dc8c77cd34baf1afd8b20b6e654b946150ad">
         <dex dex="D:\Users\user1\AndroidStudioProjects\CaloriesCalcn\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_d662ee9a12e5a3d9226cdb92d4b9c408b47679ae\classes.dex" />
     </item>
     <item
@@ -124,7 +124,7 @@
         jar="D:\Users\user1\AndroidStudioProjects\CaloriesCalcn\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
         jumboMode="true"
         revision="24.0.0"
-        sha1="4e0448dece8e231c9aaa1cddfe95aaefd766b78e">
+        sha1="618bcece41f99d2048dd4d313510332a4dd7ba72">
         <dex dex="D:\Users\user1\AndroidStudioProjects\CaloriesCalcn\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_babd72f18e4963b14fa820af93f1992e58d42195\classes.dex" />
     </item>
     <item

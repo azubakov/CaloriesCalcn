@@ -9,6 +9,8 @@ public class MealSummary {
     private double sumProteins;
     private double sumFats;
     private double sumCarbohydrates;
+    private double sumActs;
+    private double sumMinActs;
     private int count;
     private String categoryName;
 
@@ -23,12 +25,24 @@ public class MealSummary {
         this.categoryName = categoryName;
     }*/
 
-    public MealSummary(double sumGrams, double sumCalories, double sumProteins, double sumFats, double sumCarbohydrates, int count, String categoryName) {
+  /*  public MealSummary(double sumGrams, double sumCalories, double sumProteins, double sumFats, double sumCarbohydrates, int count, String categoryName) {
         this.sumGrams = sumGrams;
         this.sumCalories = sumCalories;
         this.sumProteins = sumProteins;
         this.sumFats = sumFats;
         this.sumCarbohydrates = sumCarbohydrates;
+        this.count = count;
+        this.categoryName = categoryName;
+    }*/
+
+    public MealSummary(double sumGrams, double sumCalories, double sumProteins, double sumFats, double sumCarbohydrates, double sumActs, double sumMinActs, int count, String categoryName) {
+        this.sumGrams = sumGrams;
+        this.sumCalories = sumCalories;
+        this.sumProteins = sumProteins;
+        this.sumFats = sumFats;
+        this.sumCarbohydrates = sumCarbohydrates;
+        this.sumActs = sumActs;
+        this.sumMinActs = sumMinActs;
         this.count = count;
         this.categoryName = categoryName;
     }
@@ -73,6 +87,22 @@ public class MealSummary {
         this.sumCarbohydrates = sumCarbohydrates;
     }
 
+    public double getSumActs() {
+        return sumActs;
+    }
+
+    public void setSumActs(double sumActs) {
+        this.sumActs = sumActs;
+    }
+
+    public double getSumMinActs() {
+        return sumMinActs;
+    }
+
+    public void setSumMinActs(double sumMinActs) {
+        this.sumMinActs = sumMinActs;
+    }
+
     public int getCount() {
         return count;
     }
@@ -97,6 +127,8 @@ public class MealSummary {
                 ", sumProteins=" + sumProteins +
                 ", sumFats=" + sumFats +
                 ", sumCarbohydrates=" + sumCarbohydrates +
+                ", sumActs=" + sumActs +
+                ", sumMinActs=" + sumMinActs +
                 ", count=" + count +
                 ", categoryName='" + categoryName + '\'' +
                 '}';

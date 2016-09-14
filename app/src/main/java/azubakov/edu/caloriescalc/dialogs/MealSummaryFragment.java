@@ -83,7 +83,7 @@ public class MealSummaryFragment extends Fragment {
         args.putString(ARG_CATEGORY, category);
         MealSummaryFragment fragment = new MealSummaryFragment();
         fragment.setArguments(args);
-        fragment.summary = new MealSummary(0, 0, 0, 0, 0, 0, category);
+        fragment.summary = new MealSummary(0, 0, 0, 0, 0, 0, 0, 0, category);
         return fragment;
     }
 
@@ -228,6 +228,8 @@ public class MealSummaryFragment extends Fragment {
                 summary.setSumProteins(proteins);
                 summary.setSumFats(fats);
                 summary.setSumCarbohydrates(carbohydrates);
+                summary.setSumActs(calact);
+                summary.setSumMinActs(minutsact);
                 summary.setCount((int) count);
 
 
