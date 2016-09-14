@@ -6,6 +6,8 @@
         <item>Fish</item>
         <item>Meat</item>
         <item>Milk</item>
+        <item>Fruits</item>
+        <item>Vegetables</item>
         <item>Popular</item>
         <item>Acts</item>
     </string-array>
@@ -546,9 +548,12 @@
     <string name="title_activity_recycler_acts">RecyclerActsActivity</string>
     <string name="title_activity_recycler_bread_products">RecyclerBreadProductsActivity</string>
     <string name="title_activity_recycler_fish_products">RecyclerFishProductsActivity</string>
+    <string name="title_activity_recycler_fruits">RecyclerFruitsActivity</string>
     <string name="title_activity_recycler_meat_products">RecyclerMeatProductsActivity</string>
     <string name="title_activity_recycler_popular_products">RecyclerPopularProductsActivity</string>
     <string name="title_activity_recycler_results_dairy">RecyclerResultsDairyActivity</string>
+    <string name="title_activity_recycler_vegetables_products">RecyclerVegetablesProductsActivity
+    </string>
     <string name="title_activity_result_basic">ResultBasicActivity</string>
     <string name="title_activity_result_info_body">ResultInfoBodyActivity</string>
     <string name="title_activity_search_autocomplite_nutritionix">

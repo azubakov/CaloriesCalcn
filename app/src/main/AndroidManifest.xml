@@ -147,6 +147,14 @@
         <activity
             android:name=".activity.HelperActivity"
             android:label="@string/title_activity_helper"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activity.RecyclerFruitsProductsActivity"
+            android:label="@string/title_activity_recycler_fruits"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activity.RecyclerVegetablesProductsActivity"
+            android:label="@string/title_activity_recycler_vegetables_products"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 

@@ -4,27 +4,27 @@
     api-level="23"
     density="xxhdpi"
     format="7"
-    timestamp="12824748294756"
+    timestamp="42510031052425"
     token="-6509457892269844701" >
 
     <task
         name="javac"
-        duration="2291" />
+        duration="5343" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="1203" />
+        duration="992" />
     <task
         name="verifier"
-        duration="764" />
+        duration="123" />
 
     <artifact
         location="D:\Users\user1\AndroidStudioProjects\CaloriesCalcn\app\build\outputs\apk\app-debug.apk"
         type="MAIN" />
 
-    <build timestamp="12824748294756" >
+    <build timestamp="42510031052425" >
         <artifact
             location="D:\Users\user1\AndroidStudioProjects\CaloriesCalcn\app\build\outputs\apk\app-debug.apk"
             type="MAIN" />

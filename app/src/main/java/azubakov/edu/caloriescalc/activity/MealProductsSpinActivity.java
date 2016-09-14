@@ -2,21 +2,16 @@ package azubakov.edu.caloriescalc.activity;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
-import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.Spinner;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import azubakov.edu.caloriescalc.R;
-import azubakov.edu.caloriescalc.models.Gender;
 
 public class MealProductsSpinActivity extends AppCompatActivity implements AdapterView.OnItemSelectedListener {
 
@@ -71,6 +66,18 @@ public class MealProductsSpinActivity extends AppCompatActivity implements Adapt
             Intent intent = new Intent(this, RecyclerMilkProductsActivity.class);
             startActivity(intent);
         }
+        else if (item.equals("Fruits"))
+        {
+            Intent intent = new Intent(this, RecyclerFruitsProductsActivity.class);
+            startActivity(intent);
+        }
+
+        else if (item.equals("Vegetables"))
+        {
+            Intent intent = new Intent(this, RecyclerVegetablesProductsActivity.class);
+            startActivity(intent);
+        }
+
         else if (item.equals("Bread"))
         {
             Intent intent = new Intent(this, RecyclerBreadProductsActivity.class);
